@@ -5,16 +5,15 @@ const CardList = ({ robots }) => {
   return(
     <div>
     {
-      robots.map(<user, i> => {
-       return (
-        <Card
-         id={robots[i].id}
-         name={robots[i].name}
-         email={robots[i].email}
-         />
+      robots.map(<user i> => {
+        return (
+          <Card
+            id={robots[i].id}
+            name={robots[i].name}
+            email={robots[i].email}
+          />
       );
     })
-  }
      </div>
   );
 }
